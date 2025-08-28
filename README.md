@@ -24,7 +24,6 @@ It allows users to search, browse, and discover trending movies with a sleek UI 
 
 ## Assumptions & Limitations
 - The project assumes the user has a stable internet connection to fetch movie data from the TMDB API
-- Only the English language movies are displayed; multi-language support is not implemented.
 - Movie data depends entirely on the TMDB API; if the API is down or rate-limited, some features may not work.
 - Favorites are stored locally in the browser (e.g., localStorage); there is no backend persistence.
 - Dark/Light mode preferences are stored locally and will not sync across devices.
