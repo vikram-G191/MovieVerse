@@ -18,7 +18,7 @@ It allows users to search, browse, and discover trending movies with a sleek UI 
 - **API:** [TMDB API](https://www.themoviedb.org/documentation/api)
 
 ## 📸 Screenshots
-![Home Page](Screenshots/homePage.jpg)
+![Home Page](Screenshots/homepage.jpg)
 ![Favorites Page](Screenshots/favoritePage.jpg)
 ![Movie detail Page](Screenshots/movieDetailsPage.jpg)
 
