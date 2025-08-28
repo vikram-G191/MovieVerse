@@ -18,9 +18,9 @@ It allows users to search, browse, and discover trending movies with a sleek UI 
 - **API:** [TMDB API](https://www.themoviedb.org/documentation/api)
 
 ## 📸 Screenshots
-![Home Page](screenshots/homePage.jpg)
-![Favorites Page](screenshots/favoritePage.jpg)
-![Movie detail Page](screenshots/movieDetailPage.jpg)
+![Home Page](Screenshots/homePage.jpg)
+![Favorites Page](Screenshots/favoritePage.jpg)
+![Movie detail Page](Screenshots/movieDetailsPage.jpg)
 
 ## Assumptions & Limitations
 - The project assumes the user has a stable internet connection to fetch movie data from the TMDB API
@@ -33,7 +33,7 @@ Some edge cases like duplicate movie IDs may not be handled in the UI.
 
 Clone the repository:
 ```bash
-git clone "" 
+git clone "https://github.com/vikram-G191/MovieVerse.git" 
 cd movieverse
 ```
 
@@ -44,4 +44,4 @@ npm install
 
 Run the project locally:
 ```bash
-npm run build
+npm run dev
