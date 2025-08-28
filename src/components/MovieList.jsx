@@ -42,8 +42,9 @@ export default function MovieList() {
           <LoadingSpinner />
         </div>
       )}
+
       {!items.length && !loading && (
-        <div className={`text-center ${isDark?"text-gray-400":"text-gray-900"} py-[39vw] md:py-[5vw]  px-4`}>No movies found.</div>
+        <div className={`text-center ${isDark?"text-gray-400":"text-gray-900"} py-[25vw] md:py-[5vw]  px-4`}>No movies found.</div>
       )}
     </>
   );

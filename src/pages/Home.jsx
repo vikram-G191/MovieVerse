@@ -8,7 +8,7 @@ export default function Home() {
    const { theme } = useTheme();
   const isDark = theme === 'dark';
   return (
-    <main className={`mx-auto p-4 ${isDark?"bg-black":"bg-white"}  transition-colors`}>
+    <main className={`mx-auto min-h-screen p-4 ${isDark?"bg-black":"bg-white"}  transition-colors`}>
       <Trending />
       <SearchBar/>
       <MovieList />
